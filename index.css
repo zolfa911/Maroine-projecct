@@ -1,0 +1,225 @@
+body {
+    font-family: 'Silkscreen', cursive;
+}
+
+.navi {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    justify-content: space-evenly;
+    height: 10px;
+    position: fixed;
+}
+
+.navi li a {
+    font-weight: bold;
+    padding: 5px;
+    margin: 0 75px;
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+
+}
+
+.d1 :hover {
+    color: darkgreen;
+    font-size: xxx-large;
+}
+
+.d2 :hover {
+    color: brown;
+    font-size: xxx-large;
+}
+
+.d3 :hover {
+    color: blueviolet;
+    font-size: xxx-large;
+}
+
+.d4 :hover {
+    color: chartreuse;
+    font-size: xxx-large;
+}
+
+.d5 :hover {
+    color: rgb(58, 58, 245);
+    font-size: xxx-large;
+}
+
+.main {
+
+    height: 100vh;
+    background-image: url(./pic.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main h1 {
+    color: aliceblue;
+    font-size: x-large;
+    padding: 15px;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center
+}
+
+.main a {
+    ;
+
+    padding: 10px;
+    color: brown;
+    font-size: xxx-large;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    height: 10px;
+    justify-content: center;
+
+}
+
+.main a:hover {
+    color: aqua
+}
+
+.project {
+    min-height: 100vh;
+    background-color: black;
+}
+
+.project h2 {
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.card-wrap {
+
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.card-top {
+
+    width: 250px;
+    height: 500px;
+}
+
+.top,
+.down {
+    width: 250px;
+    height: 250px;
+}
+
+.top {
+    background-image: url(./images\ \ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.down {
+    font-size: x-large;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.down h3 {
+    color: green;
+}
+
+.down p {
+    color: white;
+}
+
+
+/* button 2 */
+
+.card-top2 .down p {
+    color: white;
+}
+
+
+.card-top2 .top {
+    background-image: url(./images\ \ \(3\).jpg);
+}
+
+
+
+/* button 3 */
+
+.card-top3 .down p {
+    color: white;
+}
+
+.card-top3 .top {
+    background-image: url(./images\ \ \(4\).jpg);
+}
+
+
+
+
+/* button 4  */
+
+.card-top4 .top {
+    background-image: url(./images\ \ \(5\).jpg);
+}
+
+h4 {
+    color: aqua;
+}
+
+.last-text {
+    min-height: 50vh;
+
+}
+
+.last-text h1 {
+    color: aliceblue;
+    font-size: 70px;
+}
+
+
+
+.part1,
+.part2,
+.part3 {
+    color: rgb(0, 0, 0);
+
+
+}
+
+.last-text p:hover {
+    color: rgb(163, 16, 131);
+    font-size: 50px;
+}
+
+footer {
+    ;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+
+}
+
+footer ul li a {
+    padding: 10px;
+    margin: 50px;
+    font-size: 100px;
+}
+
+footer ul li a:hover {
+    color: red;
+
+}
